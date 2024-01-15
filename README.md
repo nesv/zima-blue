@@ -5,7 +5,20 @@ Zima Blue is my custom [Universal Blue][ublue] image.
 The name comes from a fantastic episode of [Love, Death &
 Robots][ldr-zima-blue].
 
+> [!IMPORTANT]
+> Zima Blue is a custom image containing all of the utilities and such that I
+> find useful.
+> Please do not complain about there being too many things installed by default.
+
+> [!WARNING]
+> This is intended for personal use, so your mileage may vary.
+
 ## Features
+
+Instead of a complete desktop environment, Zima Blue comes with the
+[Hyprland](https://hyprland.org/) tiling compositor for Wayland.
+
+Here is a quick highlight of the applications installed by default:
 
 | Program            | Purpose                                                |
 |--------------------|--------------------------------------------------------|
@@ -23,10 +36,10 @@ Robots][ldr-zima-blue].
 | zsh                | I can't believe it's not bash!                         |
 | Tailscale          | VPN-ish.                                               |
 
-## Installation
+A complete list of what gets installed can be found in
+[`config/recipe.yml`](https://github.com/nesv/zima-blue/blob/live/config/recipe.yml).
 
-> [!WARNING]
-> This is totally experimental, and was designed for my personal use.
+## Installation
 
 Rebase your system to the unsigned image.
 This will get the proper signing keys and policies installed:

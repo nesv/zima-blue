@@ -52,6 +52,12 @@ modules:
       - cvs
       - ripgrep
       - fzf
+      - NetworkManager
+      - Networkmanager-wifi
+      - network-manager-applet
+      - NetworkManager-tui
+      - nm-connection-editor
+      - swaybg
     remove:
       - firefox # default firefox removed in favor of flatpak
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems

@@ -53,7 +53,7 @@ modules:
       - ripgrep
       - fzf
       - NetworkManager
-      - Networkmanager-wifi
+      - NetworkManager-wifi
       - network-manager-applet
       - NetworkManager-tui
       - nm-connection-editor
